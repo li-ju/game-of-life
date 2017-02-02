@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Game of Life</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+    <div class="divElements">
+    <canvas id = "canvas001" width="800" height="600">Browser not supporting HTML5 canvas tag.</canvas>
+    </div>
+    <div id = "controlPanel" class="divElements">
+      <div id="display">
+        <p id="tick">0</p>
+      </div>
+      <button id="tickBtn" class="controlBtn" onclick="tick()">Tick</button>
+      <button id="startBtn" onclick="Start()">Start</button>
+      <button id="stopBtn" onclick="Stop()">Stop</button>
+      <button id="resetBtn" onclick="Reset()">Reset</button>
+      <button id="randomBtn" onclick="Randomize()">Randomize</button>
+    </div>
+
+<p id="textDrawArea">Test</p>
+<script type="text/javascript" src="gameoflife.js" charset="utf-8"></script>
+</body>
+</html>

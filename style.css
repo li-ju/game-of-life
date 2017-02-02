@@ -1,0 +1,86 @@
+button{
+display: block;
+
+ font-size: 16px;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ outline: none;
+ color: #fff;
+ background-color: #f44336;
+ border: none;
+ border-radius: 15px;
+ box-shadow: 0 9px #999;
+ display: block;
+margin-top: 15px;
+ height: 50px;
+ width: 100%;
+}
+button:hover {background-color: #7b8f7b;}
+
+#tickBtn { background-color: #008CBA;}
+#tickBtn:hover { background-color: #007ea7;}
+#startBtn { background-color: #4CAF50;}
+#startBtn:hover { background-color: #3e8e41;}
+#stopBtn { background-color: #f44336;}
+#stopBtn:hover { background-color: #db3c30;}
+#resetBtn { background-color: #555555;}
+#resetBtn:hover { background-color: #4c4c4c;}
+#randomBtn { background-color: #e7e7e7; color: black;}
+#randomBtn:hover { background-color: #cfcfcf;}
+
+
+button:active {
+  background-color: #7b8f7b;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.divElements
+{
+  float:left;
+}
+
+#display
+{
+  display:block;
+  border: 1px solid #3f3f3f;
+  border-radius: 15px;
+  height: 50px;
+  width: 100%;
+  background-color: #dbe2db;
+
+}
+#controlPanel
+{
+  width: 10%;
+  background-color: #d8d8d8;
+  padding: 20px;
+  margin-left: 10px;
+  height: 500px;
+  text-align: center;
+}
+#display p
+{
+  text-align: center;
+  color: #3e3e3e;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: 500;
+  font-size: 14pt;
+  line-height: 20px;
+}
+#textDrawArea
+{
+
+  color: #525252;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: 400;
+  font-size: 8pt;
+  line-height: 12px;
+}
+
+#canvas001
+{
+    border: 1px solid #8b8b8b;
+    margin-bottom: 50px;
+}
